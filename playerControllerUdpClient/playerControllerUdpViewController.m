@@ -461,7 +461,7 @@
 -(IBAction)voiceAdd:(id)sender{
     intStateMent = 9;
     
-    //[voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
+    [voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
     [voiceAdd setBackgroundImage:[UIImage imageNamed:@"yesTouchAdd.png"] forState:UIControlStateHighlighted];
     //[playPause setBackgroundImage:nil forState:UIControlStateNormal];
     //----------
@@ -494,8 +494,9 @@
 -(IBAction)voiceMult:(id)sender{
     intStateMent = 10;
     
-    //[voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
+    
     [voiceMult setBackgroundImage:[UIImage imageNamed:@"yesTouchMult.png"] forState:UIControlStateHighlighted];
+    [voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
     
     
     NSString *host = self.myTextIp;
@@ -548,6 +549,9 @@
 
 - (void)viewDidLoad
 {
+    [voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
+    [voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self setInitValue];

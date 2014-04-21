@@ -27,7 +27,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="D7D-2c-9AW" kind="push" id="4tI-Jh-TEa"/>
+                                    <segue destination="D7D-2c-9AW" kind="push" identifier="mainScreen" id="4tI-Jh-TEa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -205,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4f-N4-hT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="-57"/>
+            <point key="canvasLocation" x="1077" y="-57"/>
         </scene>
         <!--Set Ip And Port Page-->
         <scene sceneID="K9a-d7-KZm">
@@ -241,13 +241,13 @@
                                     <action selector="chooseOK:" destination="ZM3-2y-Q49" eventType="touchUpInside" id="F5A-HY-koM"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-RM-8fc">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="192.168.0.160" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-RM-8fc">
                                 <rect key="frame" x="133" y="118" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z5f-c6-HoU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6666" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z5f-c6-HoU">
                                 <rect key="frame" x="133" y="182" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -265,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ljV-6Y-Rxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1468" y="-57"/>
+            <point key="canvasLocation" x="1500" y="-57"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NgQ-pL-K5L">
@@ -312,7 +312,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="X3b-2G-vbT"/>
         <segue reference="4tI-Jh-TEa"/>
-        <segue reference="XyX-j8-beK"/>
     </inferredMetricsTieBreakers>
 </document>
