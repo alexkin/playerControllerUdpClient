@@ -34,20 +34,86 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="WnW-8g-h7c"/>
+<<<<<<< HEAD
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+=======
+>>>>>>> FETCH_HEAD
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1061" y="-50"/>
         </scene>
+<<<<<<< HEAD
         <!--Player Controller Udp View Controller-->
         <scene sceneID="KkJ-zd-CsC">
             <objects>
                 <viewController id="pdz-39-yUH" customClass="playerControllerUdpViewController" sceneMemberID="viewController">
+=======
+        <!--View Controller-->
+        <scene sceneID="FD2-3c-x3I">
+            <objects>
+                <viewController id="Odk-OY-DBc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BC1-QF-73m"/>
+                        <viewControllerLayoutGuide type="bottom" id="1ZH-Gv-KpC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Df0-qc-eym">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HL-76-Le8">
+                                <rect key="frame" x="292" y="345" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pdz-39-yUH" kind="push" id="eJi-Ou-dzI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGh-dI-1lo">
+                                <rect key="frame" x="107" y="203" width="16" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Port" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEM-rb-hfR">
+                                <rect key="frame" x="107" y="270" width="33" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DuX-v8-RKZ">
+                                <rect key="frame" x="195" y="199" width="241" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YKS-jt-6Wk">
+                                <rect key="frame" x="195" y="270" width="241" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PWx-oR-MV9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mTc-VS-ALu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2657" y="-52"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KkJ-zd-CsC">
+            <objects>
+                <viewController id="pdz-39-yUH" sceneMemberID="viewController">
+>>>>>>> FETCH_HEAD
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="go6-3m-yru"/>
                         <viewControllerLayoutGuide type="bottom" id="N9n-bd-jwB"/>
@@ -66,9 +132,12 @@
                                 <state key="normal" backgroundImage="button0.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button0:" destination="pdz-39-yUH" eventType="touchUpInside" id="tQl-6V-WOg"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zor-VR-AfP">
                                 <rect key="frame" x="338" y="268" width="80" height="80"/>
@@ -76,9 +145,12 @@
                                 <state key="normal" backgroundImage="button1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button1:" destination="pdz-39-yUH" eventType="touchUpInside" id="7SB-Df-sK0"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wj1-Zw-AwV">
                                 <rect key="frame" x="495" y="268" width="80" height="80"/>
@@ -86,9 +158,12 @@
                                 <state key="normal" backgroundImage="button2.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button2:" destination="pdz-39-yUH" eventType="touchUpInside" id="lLj-Pa-ABM"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSg-jp-CM6">
                                 <rect key="frame" x="193" y="363" width="80" height="80"/>
@@ -96,9 +171,12 @@
                                 <state key="normal" backgroundImage="button3.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button3:" destination="pdz-39-yUH" eventType="touchUpInside" id="oF2-Y6-Ip7"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAE-Q5-l8k">
                                 <rect key="frame" x="338" y="370" width="80" height="80"/>
@@ -106,9 +184,12 @@
                                 <state key="normal" backgroundImage="button4.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button4:" destination="pdz-39-yUH" eventType="touchUpInside" id="U6v-N2-VGD"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-Zy-DUp">
                                 <rect key="frame" x="495" y="378" width="80" height="80"/>
@@ -116,39 +197,60 @@
                                 <state key="normal" backgroundImage="button5.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="button5:" destination="pdz-39-yUH" eventType="touchUpInside" id="lIE-eE-qDu"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxg-h8-eDl">
                                 <rect key="frame" x="192" y="516" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playPause:" destination="pdz-39-yUH" eventType="touchUpInside" id="NvN-H8-ocb"/>
                                 </connections>
+=======
+                                <state key="normal" backgroundImage="noTouchPlay.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycj-Ij-n4Y">
                                 <rect key="frame" x="337" y="516" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="mute:" destination="pdz-39-yUH" eventType="touchUpInside" id="yrd-cq-Hnl"/>
                                 </connections>
+=======
+                                <state key="normal" backgroundImage="noTouchMute.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FT7-Rl-Ilh">
                                 <rect key="frame" x="494" y="516" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playStop:" destination="pdz-39-yUH" eventType="touchUpInside" id="Gj6-Xe-d4w"/>
                                 </connections>
+=======
+                                <state key="normal" backgroundImage="noTouchStop.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVj-WM-W0J">
                                 <rect key="frame" x="5" y="830" width="70" height="70"/>
@@ -156,9 +258,12 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="voiceAdd:" destination="pdz-39-yUH" eventType="touchUpInside" id="HbA-eg-WF9"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMT-1x-V6L">
                                 <rect key="frame" x="688" y="830" width="70" height="70"/>
@@ -166,15 +271,26 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="voiceMult:" destination="pdz-39-yUH" eventType="touchUpInside" id="vbB-JF-fdF"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVQ-VH-XgP">
                                 <rect key="frame" x="130" y="117" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <connections>
                                     <action selector="showSetIpAndPort:" destination="pdz-39-yUH" eventType="touchUpInside" id="npu-0u-jF8"/>
+=======
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Odk-OY-DBc" kind="push" id="psS-vM-QQd"/>
+>>>>>>> FETCH_HEAD
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-8v-2Si">
@@ -183,14 +299,18 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+<<<<<<< HEAD
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="push" id="NJE-4U-2kD"/>
                                 </connections>
+=======
+>>>>>>> FETCH_HEAD
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="iqG-6j-Ox8"/>
+<<<<<<< HEAD
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -203,11 +323,14 @@
                         <outlet property="voiceAdd" destination="vVj-WM-W0J" id="6Cl-Rb-0s6"/>
                         <outlet property="voiceMult" destination="uMT-1x-V6L" id="bEh-bn-4rk"/>
                     </connections>
+=======
+>>>>>>> FETCH_HEAD
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17h-Z2-cd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1861" y="-52"/>
         </scene>
+<<<<<<< HEAD
         <!--Video Editor Controller-->
         <scene sceneID="WOo-JU-Vrg">
             <objects>
@@ -218,6 +341,13 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+=======
+        <!--Navigation Controller-->
+        <scene sceneID="WOo-JU-Vrg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RN1-ap-eZi" sceneMemberID="viewController">
+                    <toolbarItems/>
+>>>>>>> FETCH_HEAD
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wqT-d0-6O7">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -241,6 +371,12 @@
         <image name="button3.png" width="100" height="93"/>
         <image name="button4.png" width="100" height="93"/>
         <image name="button5.png" width="100" height="93"/>
+<<<<<<< HEAD
+=======
+        <image name="noTouchMute.png" width="50" height="50"/>
+        <image name="noTouchPlay.png" width="50" height="50"/>
+        <image name="noTouchStop.png" width="50" height="50"/>
+>>>>>>> FETCH_HEAD
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -248,6 +384,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="NJE-4U-2kD"/>
+=======
+        <segue reference="eJi-Ou-dzI"/>
+>>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>

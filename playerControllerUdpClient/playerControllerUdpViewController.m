@@ -556,10 +556,13 @@
     [voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
     [voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
     
+<<<<<<< HEAD
     [playPause setBackgroundImage:[UIImage imageNamed:@"noTouchPlay.png"] forState:UIControlStateNormal];
     [mute setBackgroundImage:[UIImage imageNamed:@"noTouchMute.png"] forState:UIControlStateNormal];
     [playStop setBackgroundImage:[UIImage imageNamed:@"noTouchStop.png"] forState:UIControlStateNormal];
     
+=======
+>>>>>>> FETCH_HEAD
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self setInitValue];
