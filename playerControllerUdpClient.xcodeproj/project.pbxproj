@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E19E93E1905FAF800CEBAD2 /* secondPopViewIP_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E19E93C1905FAF800CEBAD2 /* secondPopViewIP_iPhone.m */; };
+		8E19E93F1905FAF800CEBAD2 /* secondPopViewIP_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E19E93D1905FAF800CEBAD2 /* secondPopViewIP_iPhone.xib */; };
+		8E19E9431905FB1A00CEBAD2 /* secondPopViewIP_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E19E9411905FB1A00CEBAD2 /* secondPopViewIP_iPad.m */; };
+		8E19E9441905FB1A00CEBAD2 /* secondPopViewIP_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E19E9421905FB1A00CEBAD2 /* secondPopViewIP_iPad.xib */; };
+		8E19E94D1906231C00CEBAD2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E19E94B1906231C00CEBAD2 /* Icon.png */; };
+		8E19E94E1906231C00CEBAD2 /* StonePlay-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E19E94C1906231C00CEBAD2 /* StonePlay-57.png */; };
 		8E87D61D1900BC12003B4AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E87D61C1900BC12003B4AE0 /* Foundation.framework */; };
 		8E87D61F1900BC12003B4AE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E87D61E1900BC12003B4AE0 /* CoreGraphics.framework */; };
 		8E87D6211900BC12003B4AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E87D6201900BC12003B4AE0 /* UIKit.framework */; };
@@ -34,7 +40,6 @@
 		8E87D6741900BC49003B4AE0 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87D66A1900BC49003B4AE0 /* GCDAsyncUdpSocket.m */; };
 		8E87D68C1900BC57003B4AE0 /* bgIpad0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D6781900BC57003B4AE0 /* bgIpad0.jpg */; };
 		8E87D68D1900BC57003B4AE0 /* bgIpad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D6791900BC57003B4AE0 /* bgIpad1.jpg */; };
-		8E87D68E1900BC57003B4AE0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D67A1900BC57003B4AE0 /* icon.png */; };
 		8E87D68F1900BC57003B4AE0 /* noTouchAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D67B1900BC57003B4AE0 /* noTouchAdd.png */; };
 		8E87D6901900BC57003B4AE0 /* noTouchMult.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D67C1900BC57003B4AE0 /* noTouchMult.png */; };
 		8E87D6911900BC57003B4AE0 /* noTouchMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E87D67D1900BC57003B4AE0 /* noTouchMute.png */; };
@@ -68,6 +73,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E19E93B1905FAF800CEBAD2 /* secondPopViewIP_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondPopViewIP_iPhone.h; sourceTree = "<group>"; };
+		8E19E93C1905FAF800CEBAD2 /* secondPopViewIP_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondPopViewIP_iPhone.m; sourceTree = "<group>"; };
+		8E19E93D1905FAF800CEBAD2 /* secondPopViewIP_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondPopViewIP_iPhone.xib; sourceTree = "<group>"; };
+		8E19E9401905FB1A00CEBAD2 /* secondPopViewIP_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondPopViewIP_iPad.h; sourceTree = "<group>"; };
+		8E19E9411905FB1A00CEBAD2 /* secondPopViewIP_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondPopViewIP_iPad.m; sourceTree = "<group>"; };
+		8E19E9421905FB1A00CEBAD2 /* secondPopViewIP_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondPopViewIP_iPad.xib; sourceTree = "<group>"; };
+		8E19E94B1906231C00CEBAD2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8E19E94C1906231C00CEBAD2 /* StonePlay-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StonePlay-57.png"; sourceTree = "<group>"; };
 		8E87D6191900BC12003B4AE0 /* playerControllerUdpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playerControllerUdpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E87D61C1900BC12003B4AE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E87D61E1900BC12003B4AE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,7 +123,6 @@
 		8E87D66A1900BC49003B4AE0 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		8E87D6781900BC57003B4AE0 /* bgIpad0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgIpad0.jpg; sourceTree = "<group>"; };
 		8E87D6791900BC57003B4AE0 /* bgIpad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgIpad1.jpg; sourceTree = "<group>"; };
-		8E87D67A1900BC57003B4AE0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8E87D67B1900BC57003B4AE0 /* noTouchAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchAdd.png; sourceTree = "<group>"; };
 		8E87D67C1900BC57003B4AE0 /* noTouchMult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchMult.png; sourceTree = "<group>"; };
 		8E87D67D1900BC57003B4AE0 /* noTouchMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchMute.png; sourceTree = "<group>"; };
@@ -300,10 +312,11 @@
 			isa = PBXGroup;
 			children = (
 				8E87D69F1900BCD1003B4AE0 /* bg0.jpg */,
+				8E19E94B1906231C00CEBAD2 /* Icon.png */,
+				8E19E94C1906231C00CEBAD2 /* StonePlay-57.png */,
 				8E87D6781900BC57003B4AE0 /* bgIpad0.jpg */,
 				8E87D6A11900BEF0003B4AE0 /* bg1.png */,
 				8E87D6791900BC57003B4AE0 /* bgIpad1.jpg */,
-				8E87D67A1900BC57003B4AE0 /* icon.png */,
 				8E87D67B1900BC57003B4AE0 /* noTouchAdd.png */,
 				8E87D67C1900BC57003B4AE0 /* noTouchMult.png */,
 				8E87D67D1900BC57003B4AE0 /* noTouchMute.png */,
@@ -330,6 +343,12 @@
 			children = (
 				8E87D6A61900C79C003B4AE0 /* setIpAndPortPage.h */,
 				8E87D6A71900C79C003B4AE0 /* setIpAndPortPage.m */,
+				8E19E93B1905FAF800CEBAD2 /* secondPopViewIP_iPhone.h */,
+				8E19E93C1905FAF800CEBAD2 /* secondPopViewIP_iPhone.m */,
+				8E19E93D1905FAF800CEBAD2 /* secondPopViewIP_iPhone.xib */,
+				8E19E9401905FB1A00CEBAD2 /* secondPopViewIP_iPad.h */,
+				8E19E9411905FB1A00CEBAD2 /* secondPopViewIP_iPad.m */,
+				8E19E9421905FB1A00CEBAD2 /* secondPopViewIP_iPad.xib */,
 			);
 			path = setIpAndPortPage;
 			sourceTree = "<group>";
@@ -422,10 +441,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E87D69B1900BC57003B4AE0 /* button2.png in Resources */,
+				8E19E9441905FB1A00CEBAD2 /* secondPopViewIP_iPad.xib in Resources */,
 				8E87D69C1900BC57003B4AE0 /* button3.png in Resources */,
 				8E87D6941900BC57003B4AE0 /* yesTouchAdd.png in Resources */,
 				8E87D6331900BC12003B4AE0 /* Main_iPad.storyboard in Resources */,
-				8E87D68E1900BC57003B4AE0 /* icon.png in Resources */,
 				8E87D68D1900BC57003B4AE0 /* bgIpad1.jpg in Resources */,
 				8E87D6A01900BCD1003B4AE0 /* bg0.jpg in Resources */,
 				8E87D68F1900BC57003B4AE0 /* noTouchAdd.png in Resources */,
@@ -433,14 +452,17 @@
 				8E87D6381900BC12003B4AE0 /* Images.xcassets in Resources */,
 				8E87D6901900BC57003B4AE0 /* noTouchMult.png in Resources */,
 				8E87D6951900BC57003B4AE0 /* yesTouchMult.png in Resources */,
+				8E19E93F1905FAF800CEBAD2 /* secondPopViewIP_iPhone.xib in Resources */,
 				8E87D6931900BC57003B4AE0 /* noTouchStop.png in Resources */,
 				8E87D6981900BC57003B4AE0 /* yesTouchStop.png in Resources */,
 				8E87D69E1900BC57003B4AE0 /* button5.png in Resources */,
+				8E19E94E1906231C00CEBAD2 /* StonePlay-57.png in Resources */,
 				8E87D69D1900BC57003B4AE0 /* button4.png in Resources */,
 				8E87D6961900BC57003B4AE0 /* yesTouchMute.png in Resources */,
 				8E87D68C1900BC57003B4AE0 /* bgIpad0.jpg in Resources */,
 				8E87D6991900BC57003B4AE0 /* button0.png in Resources */,
 				8E87D6921900BC57003B4AE0 /* noTouchPlay.png in Resources */,
+				8E19E94D1906231C00CEBAD2 /* Icon.png in Resources */,
 				8E87D6301900BC12003B4AE0 /* Main_iPhone.storyboard in Resources */,
 				8E87D69A1900BC57003B4AE0 /* button1.png in Resources */,
 				8E87D6A21900BEF0003B4AE0 /* bg1.png in Resources */,
@@ -472,11 +494,13 @@
 				8E87D6701900BC49003B4AE0 /* DDContextFilterLogFormatter.m in Sources */,
 				8E87D6741900BC49003B4AE0 /* GCDAsyncUdpSocket.m in Sources */,
 				8E87D66D1900BC49003B4AE0 /* DDFileLogger.m in Sources */,
+				8E19E93E1905FAF800CEBAD2 /* secondPopViewIP_iPhone.m in Sources */,
 				8E87D62D1900BC12003B4AE0 /* playerControllerUdpAppDelegate.m in Sources */,
 				8E87D66B1900BC49003B4AE0 /* DDAbstractDatabaseLogger.m in Sources */,
 				8E87D6721900BC49003B4AE0 /* DDMultiFormatter.m in Sources */,
 				8E87D6711900BC49003B4AE0 /* DDDispatchQueueLogFormatter.m in Sources */,
 				8E87D6291900BC12003B4AE0 /* main.m in Sources */,
+				8E19E9431905FB1A00CEBAD2 /* secondPopViewIP_iPad.m in Sources */,
 				8E87D6B41900DD86003B4AE0 /* dateDelegate.m in Sources */,
 				8E87D66C1900BC49003B4AE0 /* DDASLLogger.m in Sources */,
 			);
@@ -697,6 +721,7 @@
 				8E87D6501900BC12003B4AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E87D6511900BC12003B4AE0 /* Build configuration list for PBXNativeTarget "playerControllerUdpClientTests" */ = {
 			isa = XCConfigurationList;
@@ -705,6 +730,7 @@
 				8E87D6531900BC12003B4AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

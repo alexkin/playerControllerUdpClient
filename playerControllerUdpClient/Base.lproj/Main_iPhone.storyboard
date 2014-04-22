@@ -27,7 +27,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="D7D-2c-9AW" kind="push" id="4tI-Jh-TEa"/>
+                                    <segue destination="D7D-2c-9AW" kind="push" identifier="mainScreen" id="4tI-Jh-TEa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -200,72 +200,11 @@
                         <outlet property="playStop" destination="DGj-BB-heA" id="Tfg-6K-UkZ"/>
                         <outlet property="voiceAdd" destination="qbj-ac-emR" id="1Jd-Cc-PjF"/>
                         <outlet property="voiceMult" destination="03T-go-Iyc" id="9Vl-mD-MjS"/>
-                        <segue destination="ZM3-2y-Q49" kind="push" identifier="ipSetting" id="449-hF-z9Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4f-N4-hT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="-57"/>
-        </scene>
-        <!--Set Ip And Port Page-->
-        <scene sceneID="K9a-d7-KZm">
-            <objects>
-                <viewController storyboardIdentifier="ipSetting" id="ZM3-2y-Q49" customClass="setIpAndPortPage" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="RPA-83-IMY"/>
-                        <viewControllerLayoutGuide type="bottom" id="1dY-sS-vTj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EdR-gb-XeM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8o5-Ok-pJD">
-                                <rect key="frame" x="60" y="122" width="16" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PORT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dX9-c9-4pd">
-                                <rect key="frame" x="60" y="186" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei4-rE-qHD">
-                                <rect key="frame" x="230" y="233" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="OK">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="chooseOK:" destination="ZM3-2y-Q49" eventType="touchUpInside" id="F5A-HY-koM"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-RM-8fc">
-                                <rect key="frame" x="133" y="118" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z5f-c6-HoU">
-                                <rect key="frame" x="133" y="182" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="YD7-6M-V7k"/>
-                    <connections>
-                        <outlet property="textFieldIpInput" destination="zI0-RM-8fc" id="0xf-H1-jia"/>
-                        <outlet property="textFieldPortInput" destination="z5f-c6-HoU" id="kgE-az-BpF"/>
-                        <segue destination="D7D-2c-9AW" kind="push" identifier="endSetting" id="m8J-qS-F4X"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ljV-6Y-Rxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1468" y="-57"/>
+            <point key="canvasLocation" x="1077" y="-57"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NgQ-pL-K5L">
@@ -312,7 +251,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="4tI-Jh-TEa"/>
-        <segue reference="XyX-j8-beK"/>
+        <segue reference="X3b-2G-vbT"/>
     </inferredMetricsTieBreakers>
 </document>

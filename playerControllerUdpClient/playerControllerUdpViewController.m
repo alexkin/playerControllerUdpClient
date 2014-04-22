@@ -8,6 +8,8 @@
 
 #import "playerControllerUdpViewController.h"
 #import "setIpAndPortPage.h"
+#import "secondPopViewIP_iPad.h"
+#import "secondPopViewIP_iPhone.h"
 #import "dateDelegate.h"
 #import "GCDAsyncUdpSocket.h"
 #import "DDLog.h"
@@ -15,6 +17,10 @@
 //static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 #define FORMAT(format,...) [NSString stringWithFormat:(format),##__VA_ARGS__]
+
+
+#define runAs_iPad  secondPopViewIP_iPad
+#define runAs_iPhone    secondPopViewIP_iPhone
 
 @interface playerControllerUdpViewController (){
     long tag;
@@ -44,7 +50,7 @@
     self.myTextIp = value.textIp;
     self.myTextPort = value.textPort;
     
-    NSLog(@"myTextIp here: %@",value.textIp);
+    //NSLog(@"myTextIp here: %@",value.textIp);
     
     if (udpSocket == nil) {
         [self setupSocket];
@@ -70,21 +76,19 @@
 
 
 -(IBAction)showSetIpAndPort:(id)sender{
-    //setIpAndPortPage *controller =[[setIpAndPortPage alloc]initWithNibName:@"setIpAndPortPage" bundle:nil];
     
-    //setIpAndPortPage *controller = [[setIpAndPortPage alloc]init];
+#ifdef runAs_iPad
+    runAs_iPad *secondView = [[runAs_iPad alloc]initWithNibName:@"secondPopViewIP_iPad" bundle:[NSBundle mainBundle]];
+#else
+    runAs_iPhone *secondView = [[runAs_iPhone alloc]initWithNibName:@"secondPopViewIP_iPhone" bundle:[NSBundle mainBundle]];
+#endif
     
-    
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
-    setIpAndPortPage *controller = (setIpAndPortPage *)[storyBoard instantiateViewControllerWithIdentifier:@"ipSetting"];
-
     //----------------------------------
-    controller.delegate = self;
+    secondView.delegate = self;
     
     //controller.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
     
-    [self performSegueWithIdentifier:@"ipSetting" sender:nil];
-    
+    [self.navigationController pushViewController:secondView animated:YES];
     
     //[self presentViewController:controller animated:YES completion:nil];
     
@@ -118,7 +122,7 @@
     //------------------------
     
     
-    NSLog(@"here is the report:%@",myTextIp);
+    //NSLog(@"here is the report:%@",myTextIp);
     //NSLog(@"ahahhahaha %@",self.myTextPort);
     NSString *host = self.myTextIp;
     if ([host length] == 0) {
@@ -461,7 +465,7 @@
 -(IBAction)voiceAdd:(id)sender{
     intStateMent = 9;
     
-    //[voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
+    [voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
     [voiceAdd setBackgroundImage:[UIImage imageNamed:@"yesTouchAdd.png"] forState:UIControlStateHighlighted];
     //[playPause setBackgroundImage:nil forState:UIControlStateNormal];
     //----------
@@ -494,8 +498,9 @@
 -(IBAction)voiceMult:(id)sender{
     intStateMent = 10;
     
-    //[voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
+    
     [voiceMult setBackgroundImage:[UIImage imageNamed:@"yesTouchMult.png"] forState:UIControlStateHighlighted];
+    [voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
     
     
     NSString *host = self.myTextIp;
@@ -548,6 +553,13 @@
 
 - (void)viewDidLoad
 {
+    [voiceAdd setBackgroundImage:[UIImage imageNamed:@"noTouchAdd.png"] forState:UIControlStateNormal];
+    [voiceMult setBackgroundImage:[UIImage imageNamed:@"noTouchMult.png"] forState:UIControlStateNormal];
+    
+    [playPause setBackgroundImage:[UIImage imageNamed:@"noTouchPlay.png"] forState:UIControlStateNormal];
+    [mute setBackgroundImage:[UIImage imageNamed:@"noTouchMute.png"] forState:UIControlStateNormal];
+    [playStop setBackgroundImage:[UIImage imageNamed:@"noTouchStop.png"] forState:UIControlStateNormal];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self setInitValue];
